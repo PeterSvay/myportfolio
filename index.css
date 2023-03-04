@@ -3,8 +3,8 @@
 body {
 	font-family: Arial, sans-serif;
 	color: #333;
-	background-color: #f2f200;
-}
+	margin: 0px;
+} 
 
 a {
 	color: #0066cc;
@@ -21,6 +21,11 @@ header {
 
 h1 {
 	margin: 0;
+	display: inline-block;
+}
+
+nav {
+	display: inline-block;
 }
 
 nav ul {
@@ -31,11 +36,21 @@ nav ul {
 
 nav li {
 	display: inline-block;
-	margin-right: 20px;
+	margin-right: 0 0.35em;
+	padding: 0;
+	vertical-align:middle;
 }
 
 nav a {
-	color: #fff;
+	color: #636363;
+	display: inline-block;
+	height: 2.25em;
+	line-height: 2.25em;
+	padding: 0 1.25em;
+	border: 0;
+	border-radius: 8px;
+	box-shadow: inset 0 0 0 1px transparent;
+	text-decoration: none;
 }
 
 nav a:hover {
@@ -47,11 +62,13 @@ nav a:hover {
 main {
 	max-width: 800px;
 	margin: 0 auto;
-	padding: 20px;
+	padding: 0px;
 }
 
 section {
-	margin-bottom: 40px;
+	margin-bottom: 0px;
+	min-height:100vh;
+	min-width:50vh;
 }
 
 h2 {
@@ -62,3 +79,10 @@ ul {
 	list-style: none;
 	margin: 0;
 	padding:
+}
+
+#about {
+	background-image: url("/images/marek-piwnicki-G_6kPyje9Lk-unsplash.jpg");
+	background-size: 100vh 100vh;
+
+}
