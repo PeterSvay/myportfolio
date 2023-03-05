@@ -2,7 +2,8 @@
 
 body {
 	font-family: "Montserrat", sans-serif;
-	background: linear-gradient(#F7F7F7 0%, #5b43d6 100%);
+
+	background: linear-gradient(#F7F7F7 0%, #5b43d6 100%);*/
 	margin: 0px;
 } 
 
@@ -110,13 +111,35 @@ ul {
 #about {
 	background-size: 100vh;
 	display:flex;
+	margin-top: 200px;
+	flex-direction: column;
 
 }
 
 #introduction p {
-	font-size: 50px;
+	font-size: 90px;
 }
 
 b {
 	color:#5b43d6
 }
+
+.btn {
+	display: inline-block;
+	padding: 12px 24px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	background-color: #000;
+	color: #fff;
+	border-radius: 30px;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .btn:hover {
+	background-color: #fff;
+	color: #000;
+  }
