@@ -1,7 +1,7 @@
 /* Global styles */
 
 body {
-	font-family: Arial, sans-serif;
+	font-family: "Montserrat", sans-serif;
 	background: linear-gradient(#F7F7F7 0%, #5b43d6 100%);
 	margin: 0px;
 } 
@@ -17,11 +17,10 @@ a {
 /* Header styles */
 
 header {
-	color: #fff;
 	padding: 0px;
 	width:100%;
-	padding: 30px 15%;
-	position:sticky;
+	padding: 0px 15%;
+	position:relative;
 	top:0;
 	display:flex;
 	justify-content: space-between;
@@ -43,7 +42,7 @@ h1 {
 }
 
 #logo img{
-	width: 5em;
+	width: 4em;
 	
 }
 
@@ -95,6 +94,7 @@ section {
 	margin-bottom: 0px;
 	min-height:100vh;
 	min-width:100vh;
+	padding: 0px 15%;
 }
 
 h2 {
@@ -109,5 +109,14 @@ ul {
 
 #about {
 	background-size: 100vh;
+	display:flex;
 
+}
+
+#introduction p {
+	font-size: 50px;
+}
+
+b {
+	color:#5b43d6
 }
