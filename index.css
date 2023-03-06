@@ -111,10 +111,17 @@ ul {
 #about {
 	background-size: 100vh;
 	display:flex;
-	margin-top: 200px;
-	flex-direction: column;
+	flex-direction:row;
+
 
 }
+
+#aboutL {
+	margin-top: 200px;
+	flex-direction: column;
+	position:absolute;
+}
+
 
 #introduction p {
 	font-size: 90px;
@@ -142,4 +149,9 @@ b {
   .btn:hover {
 	background-color: #fff;
 	color: #000;
+  }
+
+  #aboutR{
+	min-height:100%;
+	padding-left: 45%;
   }
