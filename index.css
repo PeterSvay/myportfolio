@@ -116,7 +116,7 @@ ul {
 
 }
 
-#aboutL {
+#about-left {
 	margin-top: 200px;
 	flex-direction: column;
 	position:absolute;
@@ -124,11 +124,10 @@ ul {
 
 
 #introduction p {
-	font-size: 90px;
-}
-
-b {
-	color:#5b43d6
+	font-size: 80px;
+	--height:100px;
+	min-height: var(--height);
+	line-height: var(--height);
 }
 
 .btn {
@@ -144,14 +143,45 @@ b {
 	border: none;
 	cursor: pointer;
 	transition: background-color 0.3s, color 0.3s;
-  }
+}
   
-  .btn:hover {
-	background-color: #fff;
-	color: #000;
-  }
+.btn:hover {
+background-color: #fff;
+color: #000;
+}
 
-  #aboutR{
-	min-height:100%;
-	padding-left: 45%;
-  }
+#about-right {
+min-height:100%;
+padding-left: 45%;
+}
+
+.animate-text{
+	display:inline-flex;
+	height: var(--height);
+	overflow: hidden;
+	padding: 0 5px;
+	margin: 0 -5px;
+}
+
+.inner-animate-text{
+	color:#5b43d6;
+	display:flex;
+	flex-flow:column nowrap;
+	transform: translateY(100%);
+	animation: slider 9s ease infinite;
+}
+
+@keyframes slider{
+	10%, 25%{
+		transform: translateY(0%);
+	}
+	35%, 50%{
+		transform: translateY(-100%);
+	}
+	60%, 75%{
+		transform: translateY(-200%);
+	}
+	85%, 100%{
+		transform: translateY(-300%);
+	}
+}

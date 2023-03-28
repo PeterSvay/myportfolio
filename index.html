@@ -2,11 +2,11 @@
 <html>
 <head>
 	<title>My Portfolio</title>
+	<script src="script.js"></script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="index.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-	<script src="script.js"></script>
 </head>
 <body>
 	<header>
@@ -24,12 +24,24 @@
 	</header>
 	<main>
 		<section id="about">
-			<div id="aboutL">  
-				<div id="introduction"><p>Hi,<br> I'm <strong id="name">Peter Svay</strong><br><b id="Whatami">Software Engineer.</Gacha></b></p></div>
-				<div><input type="button" class="btn" value="Download CV" onclick="button()"></div>
+			<div id="about-left">  
+				<div id="introduction">
+					<p>
+						Hi,<br> I'm <strong id="name">Peter Svay</strong><br>
+						<b class="animate-text">
+							<span class="inner-animate-text">
+								<span>Computer Scientist.</span>
+								<span>Artist.</span>
+								<span>Web Designer.</span>
+								<span>Gamer.</span>
+							</span>
+						</b>
+					</p>
+				</div>
+				<div><input type="button" class="btn" value="Download CV"></div>
 			</div>
-			<div id="aboutR">
-				><img id="img" src="images/coolimg.png" alt="">
+			<div id="about-right">
+				<img id="img" src="images/coolimg.png" alt="">
 			</div>
 		</section>
 		<section id="projects">
