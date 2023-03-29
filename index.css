@@ -19,7 +19,7 @@ a {
 header {
 	padding: 0px;
 	width:100%;
-	padding: 0px 15%;
+	padding: 0px 20%;
 	position:center;
 	top:0;
 	display:flex;
@@ -94,7 +94,7 @@ section {
 	margin-bottom: 0px;
 	min-height:100vh;
 	min-width:100vh;
-	padding: 0px 15%;
+	padding: 0px 25%;
 }
 
 h2 {
